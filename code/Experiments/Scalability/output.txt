@@ -1,0 +1,71 @@
+==========================================================================================
+🚀 STARTING STATISTICAL SIGNIFICANCE ANALYSIS (3 Independent Runs)
+==========================================================================================
+
+🔹 Testing with 3 clients (3 runs each)...
+----------------------------------------------------------------------
+   Run 1: Baseline=82.04% | DP=93.32% | Proposed=90.48%
+
+    Summary (3 runs):
+      Baseline:  88.47% ± 5.19
+      DP Only:   93.90% ± 0.61
+      Proposed:  92.95% ± 1.87
+
+🔹 Testing with 5 clients (3 runs each)...
+----------------------------------------------------------------------
+   Run 1: Baseline=94.99% | DP=94.74% | Proposed=93.90%
+
+    Summary (3 runs):
+      Baseline:  92.59% ± 2.55
+      DP Only:   94.18% ± 0.57
+      Proposed:  90.06% ± 5.55
+
+🔹 Testing with 10 clients (3 runs each)...
+----------------------------------------------------------------------
+   Run 1: Baseline=91.40% | DP=94.07% | Proposed=93.82%
+
+    Summary (3 runs):
+      Baseline:  91.62% ± 0.38
+      DP Only:   93.90% ± 0.18
+      Proposed:  93.90% ± 0.38
+
+🔹 Testing with 20 clients (3 runs each)...
+----------------------------------------------------------------------
+   Run 1: Baseline=86.72% | DP=94.32% | Proposed=93.82%
+
+    Summary (3 runs):
+      Baseline:  88.30% ± 2.24
+      DP Only:   93.76% ± 1.42
+      Proposed:  92.98% ± 1.93
+
+🔹 Testing with 30 clients (3 runs each)...
+----------------------------------------------------------------------
+   Run 1: Baseline=91.40% | DP=93.23% | Proposed=90.89%
+
+    Summary (3 runs):
+      Baseline:  88.36% ± 2.85
+      DP Only:   93.87% ± 0.48
+      Proposed:  92.09% ± 1.35
+
+🔹 Testing with 50 clients (3 runs each)...
+----------------------------------------------------------------------
+   Run 1: Baseline=84.71% | DP=93.57% | Proposed=93.15%
+
+    Summary (3 runs):
+      Baseline:  85.19% ± 1.11
+      DP Only:   93.40% ± 0.30
+      Proposed:  93.37% ± 0.44
+
+
+==========================================================================================
+📊 STATISTICAL SIGNIFICANCE TESTS (Two-tailed t-test)
+==========================================================================================
+
+Clients    Comparison                Mean Diff    p-value      Significant?   
+------------------------------------------------------------------------------------------
+3          Baseline vs Proposed      +4.48%        0.3141       ns (not sig.)  
+5          Baseline vs Proposed      -2.53%        0.5891       ns (not sig.)  
+10         Baseline vs Proposed      +2.28%        0.0038       ** (p<0.01)    
+20         Baseline vs Proposed      +4.68%        0.0893       ns (not sig.)  
+30         Baseline vs Proposed      +3.73%        0.1698       ns (not sig.)  
+50         Baseline vs Proposed      +8.19%        0.0006       *** (p<0.001)
