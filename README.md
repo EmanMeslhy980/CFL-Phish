@@ -6,3 +6,4 @@ The framework is designed for decentralized edge environments where raw webpage 
 
 This repository provides the implementation, experimental configurations, dataset split manifests, preprocessing and feature-extraction components, federated training pipeline, privacy accounting, evaluation scripts, and reproducibility resources associated with the CFL-Phish study.
 
+<img width="2040" height="934" alt="main-model (2)" src="https://github.com/user-attachments/assets/a4bf2e19-c2d8-451e-8c6f-03be36c0acdb" />
