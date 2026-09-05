@@ -1,0 +1,25 @@
+🚀 Running Privacy-Utility Trade-off Analysis | Device: cpu
+
+
+📂 Loading 768-feature data...
+✅ Data ready: Train=(6780, 768), Val=(1197, 768), Features=768
+
+================================================================================
+📊 Running Privacy-Utility Trade-off Analysis (Optimized)
+================================================================================
+Testing Epsilon Values:  11%|█         | 1/9 [00:41<05:34, 41.76s/it]   ε=0.1 | σ=3.17 | Acc=85.96% | F1=84.50%
+
+Testing Epsilon Values:  22%|██▏       | 2/9 [01:22<04:49, 41.32s/it]   ε=0.2 | σ=2.24 | Acc=94.15% | F1=92.15%
+
+Testing Epsilon Values:  33%|███▎      | 3/9 [02:03<04:06, 41.05s/it]   ε=0.3 | σ=1.83 | Acc=94.15% | F1=92.65%
+
+Testing Epsilon Values:  44%|████▍     | 4/9 [02:42<03:20, 40.19s/it]   ε=0.4 | σ=1.59 | Acc=91.31% | F1=88.65%
+
+Testing Epsilon Values:  56%|█████▌    | 5/9 [03:23<02:41, 40.35s/it]   ε=0.5 | σ=1.42 | Acc=92.23% | F1=89.32%
+
+Testing Epsilon Values:  67%|██████▋   | 6/9 [04:03<02:01, 40.43s/it]   ε=0.6 | σ=1.30 | Acc=94.24% | F1=92.73%
+
+Testing Epsilon Values:  78%|███████▊  | 7/9 [04:42<01:20, 40.04s/it]   ε=0.7 | σ=1.20 | Acc=95.15% | F1=93.78%
+
+Testing Epsilon Values:  89%|████████▉ | 8/9 [05:23<00:40, 40.12s/it]   ε=0.8 | σ=1.12 | Acc=85.80% | F1=78.48%
+Testing Epsilon Values: 100%|██████████| 9/9 [06:03<00:00, 40.41s/it]   ε=0.9 | σ=1.06 | Acc=94.15% | F1=92.80%
